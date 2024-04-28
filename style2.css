@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Anote';
+    src: 
+         /*url("/CSS/material library/Dancing_Script/static/DancingScript-Bold.ttf") format("truetype");*/
+        url('a_note-webfont.woff2') format('woff2'),
+        url('a_note-webfont.woff') format('woff'); 
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: Anote;
+    background: rgb(122, 222, 242);
+    color: rgb(239, 247, 246);
+}
+
+/*h1 {
+    font-size: ;
+    padding: ;
+    border: ;
+    margin: ;
+}*/
+
+
+
+
+p {
+    /*color: rgba(0, 0, 0, 1);
+    color: #000000;
+    color: #FFFFFF;
+    color: #00FF00;
+    color: whitesmoke;
+    color: #FFF;*/
+    color: rgb(242, 181, 211);
+}
+
+h1 {
+    font-size: 48px;
+    margin: 15px;
+    border: 2px dashed rgb(247, 214, 224);
+    padding: 20px;
+    max-width: 100%;
+}
+
+.container{
+    font-size: 24px;
+    border: 2px dashed rgb(247, 214, 224);
+    margin: 15px;
+    padding: 20px;
+    max-width: 100%;
+
+}
+
+p{
+    font-size: 16px;
+    margin: 15px;
+}
+
+/*a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+}
+
+a :visited{
+    color: #00FF00;
+}
+
+a:hover a:focus{
+    color: aqua;
+    opacity: 0.8;
+}
+
+a :active {
+    color: red;
+}*/
